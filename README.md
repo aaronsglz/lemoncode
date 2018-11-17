@@ -5,9 +5,6 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
 
 
 ### Índice de ejercicios
-A continuación se muestra el listado de ejercicios de cada módulo.
-
-[Node.js and npm](https://nodejs.org/en/)
 
 - Módulo 2: Lenguajes
     1. [Array operations](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex1-array-operations)
