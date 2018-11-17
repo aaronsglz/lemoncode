@@ -1,0 +1,26 @@
+{
+    "name": "lemoncode-exercises",
+    "version": "1.0.0",
+    "description": "LemonCode 5 Language exercises",
+    "keywords": [
+        "lemoncode",
+        "master",
+        "javascript",
+        "typescript"
+    ],
+    "homepage": "https://github.com/Lemoncode/language-exercises#readme",
+    "bugs": {
+        "url": "https://github.com/Lemoncode/language-exercises/issues"
+    },
+    "license": "MIT",
+    "author": "Lemoncode",
+    "main": "index.html",
+    "scripts": {
+        "start": "lite-server -c bs-config.json"
+    },
+    "dependencies": {
+        "lite-server": "^2.4.0"
+    },
+    "peerDependencies": {},
+    "devDependencies": {}
+}
