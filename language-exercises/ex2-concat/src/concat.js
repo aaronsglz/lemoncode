@@ -1,3 +1,4 @@
+// Middle Earth arrays
 const hobbits = ['Frodo', 'Sam', 'Merry', 'Pippin'];
 const hombres = ['Aragorn', 'Boromir'];
 const otros = ['Gandalf', 'Legolas', 'Gimli'];
