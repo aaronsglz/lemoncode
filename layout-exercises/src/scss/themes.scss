@@ -1,0 +1,44 @@
+
+@import 'common/settings';
+@import 'common/mixins';
+@import 'common/base';
+
+// Import theme
+@import 'themes/red';
+// @import 'themes/blue';
+
+
+.themes {
+    font-family: $font-text;
+    font-size: 1.2em;
+}
+
+.box {
+    border-radius: $radius;
+    width: 8rem;
+    height: 6rem;
+    padding: 1rem;
+    border: 1px solid $color-lightgrey;
+    font-family: $font-text-box;
+}
+
+.box--base {
+    background-color: $color-primary;
+}
+
+.box--important {
+    background-color: $color-primary-dark;
+}
+
+.box--warning {
+    background-color: $color-primary-light;
+}
+
+
+.font-secondary {
+    font-family: $font-text-secondary;
+}
+
+.box--shadow {
+    box-shadow: -10px 10px 20px 0px  $color-darkgrey;
+}

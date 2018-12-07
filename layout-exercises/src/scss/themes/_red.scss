@@ -1,0 +1,18 @@
+/* Theme - Red */
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-lightgrey: lighten($color-black, 80);
+$color-darkgrey: lighten($color-black, 30);
+
+$color-text: $color-black;
+
+$color-primary: red;
+$color-primary-light: pink;
+$color-primary-dark: darken($color-primary, 30);
+
+$font-text: Arial, Helvetica, sans-serif;
+$font-text-secondary: 'Consolas', monospace;
+$font-text-box: 'Comic Sans MS', cursive;
+
+$radius: 3px;

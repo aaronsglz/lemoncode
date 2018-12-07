@@ -1,0 +1,18 @@
+/* Theme - Blue */
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-lightgrey: lighten($color-black, 80);
+$color-darkgrey: lighten($color-black, 30);
+
+$color-text: $color-black;
+
+$color-primary: blue;
+$color-primary-light: cyan;
+$color-primary-dark: darken($color-primary, 20);
+
+$font-text: 'Times New Roman', Times, serif;
+$font-text-secondary: $font-text;
+$font-text-box: 'Comic Sans MS', cursive;
+
+$radius: 7px;
