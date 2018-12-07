@@ -1,0 +1,52 @@
+
+@import 'common/settings';
+@import 'common/mixins';
+@import 'common/base';
+
+
+
+.palette {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+    .palette__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 7em;
+        margin: 0.1em;
+        padding: 0.2em;
+        background-color: lightgrey;
+    }
+
+
+.palette--red {
+    .palette__item {
+        background-color: $color-red;
+    }
+
+    @include darkenColors($color-red, 'palette__item--darken', 4);
+    @include lightenColors($color-red, 'palette__item--lighten', 4);
+}
+
+.palette--green {
+    .palette__item {
+        background-color: $color-green;
+    }
+
+    @include darkenColors($color-green, 'palette__item--darken', 4);
+    @include lightenColors($color-green, 'palette__item--lighten', 4);
+}
+
+.palette--blue {
+    .palette__item {
+        background-color: $color-blue;
+    }
+
+    @include darkenColors($color-blue, 'palette__item--darken', 4);
+    @include lightenColors($color-blue, 'palette__item--lighten', 4);
+}
+
+
