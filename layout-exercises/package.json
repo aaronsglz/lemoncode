@@ -1,7 +1,7 @@
 {
-  "name": "demos",
+  "name": "layout-exercises",
   "version": "1.0.0",
-  "description": "Current demos for Lemoncode Master 16/17",
+  "description": "Layout exercises for Lemoncode Master 5",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
@@ -12,7 +12,6 @@
     "gulp": "^3.9.1",
     "gulp-connect": "^5.7.0",
     "gulp-open": "^3.0.1",
-    "gulp-refresh": "^1.1.0",
     "gulp-sass": "^4.0.2"
   }
 }
