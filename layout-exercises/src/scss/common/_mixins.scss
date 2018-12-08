@@ -6,30 +6,30 @@
         @media (min-width: map-get($map-breakpoints, $breakpoint)) {
             @content;
         }
-      }
+    }
     
-      @else {
+    @else {
         @warn "No hay valor para `#{$breakpoint}`."
-      }
-}
+    }
+};
 
 
 @mixin darkenColors($color, $className, $gradientSize) {
-
+    
     @for $i from 1 through $gradientSize {
         .#{$className}#{$i} {
             background-color: darken($color, $i*10);
             color: lighten($color, lightness($color));
         }
     }
-}
+};
 
 @mixin lightenColors($color, $className, $gradientSize) {
-
+    
     @for $i from 1 through $gradientSize {
         .#{$className}#{$i} {
             background-color: lighten($color, $i*10);
             color: darken($color, lightness($color));
         }
     }
-}
+};
