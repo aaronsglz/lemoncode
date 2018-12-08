@@ -6,7 +6,8 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
 
 ### Índice de ejercicios
 
-1. Layout (pendiente)
+1. Módulo 1: Layout
+    [Layout exercises](https://github.com/aaronsglz/lemoncode/tree/master/layout-exercises)
 2. Módulo 2: Lenguajes
     1. [Array operations](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex1-array-operations)
     2. [Concat](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex2-concat)
@@ -14,3 +15,5 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
     4. [Read books](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex4-read-books)
     5. [Read books (Typescript)](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex4-read-books-ts)
     6. [Slot machine](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex5-slot-machine)
+3. Bundling (pendiente)
+4. Frameworks (pendiente)
