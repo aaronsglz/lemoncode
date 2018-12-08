@@ -1,7 +1,7 @@
 # LemonCode
 Resolución de los ejercicios propuestos durante las sesiones del **Máster Front-End Lemoncode**.
 
-> Cada módulo del máster tendrá su propia carpeta donde se irán agrupando los ejercicios propuestos. A su vez, cada ejercicio contará con su propia carpeta.
+> Cada módulo del máster tendrá su propia carpeta donde se irán agrupando los ejercicios propuestos. A su vez, cada ejercicio contará con su propia carpeta (según el tipo de ejercicio).
 
 
 ### Índice de ejercicios
