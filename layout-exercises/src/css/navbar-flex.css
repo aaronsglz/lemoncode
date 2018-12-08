@@ -11,13 +11,13 @@ body {
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .wrapper {
       width: 40em; } }
-  @media (min-width: 56.25em) {
+  @media (min-width: 65em) {
     .wrapper {
       width: 55em; } }
-  @media (min-width: 68.75em) {
+  @media (min-width: 80em) {
     .wrapper {
       width: 65em; } }
 
@@ -72,14 +72,14 @@ body {
   display: none;
   text-transform: uppercase;
   color: #000000; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .site-nav__caption {
       display: block; } }
 
 .page-body {
   order: 2;
   flex-grow: 1; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .page-body {
       order: 3;
       flex-grow: 0; } }
@@ -88,7 +88,7 @@ body {
   order: 3;
   flex-shrink: 0;
   background-color: #e6e6e6; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .aside-nav {
       order: 2; } }
 
@@ -99,7 +99,7 @@ body {
   margin: 0;
   padding: 0.2rem;
   list-style: none; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .aside-nav__list {
       padding: 0;
       border-bottom: 2px solid #e6e6e6; } }
@@ -109,7 +109,7 @@ body {
   flex-basis: 100%;
   margin-right: 0.1rem;
   margin-left: 0.1rem; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .aside-nav__item {
       justify-content: space-between;
       margin-right: 0;
@@ -127,6 +127,6 @@ body {
   color: #000000;
   padding: 0.2em 0.4em;
   background-color: #ffffff; }
-  @media (min-width: 48em) {
+  @media (min-width: 50em) {
     .aside-nav__link {
       font-size: 0.6rem; } }

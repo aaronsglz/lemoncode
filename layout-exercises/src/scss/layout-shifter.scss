@@ -1,0 +1,109 @@
+@import 'common/settings';
+@import 'common/mixins';
+@import 'common/base';
+
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-lightgrey: lighten($color-black, 90);
+$color-darkgrey: lighten($color-black, 30);
+$color-text: $color-black;
+$color-bg-header: lighten(salmon, 15);
+$color-bg-main: lighten(deepskyblue, 20);
+$color-bg-footer: lighten(aquamarine, 10);
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 100vh;
+
+    @include respond-to(medium) {
+        display: grid;
+        grid-template-columns: 0.2fr 1fr 3fr 0.2fr;
+        grid-template-rows: 50vh 50vh;
+        grid-template-areas: 
+            ". header main ."
+            ". header footer .";
+    }
+    
+    @include respond-to(large) {
+        display: grid;
+        grid-template-columns: 0.8fr 1fr 3fr 0.8fr;
+    }
+    
+}
+
+    .page-header {
+        grid-area: header;
+        flex-shrink: 0;
+        padding: 0.5em 1em;
+        background-color: $color-bg-header;
+
+        @include respond-to(small) {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .page__section {
+        padding: 1em;
+        flex-grow: 1;
+
+        @include respond-to(small) {
+            flex-grow: 2;
+        }
+    }
+
+    .page__section--main {
+        grid-area: main;
+        background-color: $color-bg-main;
+    }
+    
+    .page__section--footer {
+        grid-area: footer;
+        background-color: $color-bg-footer;
+    }
+
+
+
+.site-nav {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+    .site-nav__list {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        @include respond-to(medium) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    .site-nav__item {
+        display: inline-flex;
+    }
+
+    .site-nav__link {
+        margin-right: 0.5em;
+        text-decoration: none;
+    }
