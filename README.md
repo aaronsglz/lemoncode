@@ -7,7 +7,9 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
 ### Índice de ejercicios
 
 1. Módulo 1: Layout
-    [Layout exercises](https://github.com/aaronsglz/lemoncode/tree/master/layout-exercises)
+    
+    - [Layout exercises](https://github.com/aaronsglz/lemoncode/tree/master/layout-exercises)
+
 2. Módulo 2: Lenguajes
     1. [Array operations](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex1-array-operations)
     2. [Concat](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex2-concat)
