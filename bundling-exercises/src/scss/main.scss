@@ -7,11 +7,11 @@ $font-text: 'Open Sans', sans-serif;
 
 // Base colors
 $color-lightgrey: lighten(black, 80);
-$color-aquamarine-light: lighten(aquamarine, 15);
+$color-aquamarine-light: lighten(aquamarine, 10);
 
 // App colors
-$color-bg-container: $color-aquamarine-light;
-$color-bg-hello: $color-lightgrey;
+$color-bg-container: $color-lightgrey;
+$color-bg-hello: $color-aquamarine-light;
 
 body {
     margin: 0;
@@ -21,8 +21,12 @@ body {
 .hello {
     padding: 2em 1em;
     text-align: center;
-    background-color: $color-lightgrey;
+    background-color: $color-bg-hello;
 }
+
+    .hello__logo img {
+        max-width: 100px;
+    }
 
     .hello__title {
         margin-top: 0;

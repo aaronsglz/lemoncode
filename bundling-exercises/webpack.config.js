@@ -61,6 +61,17 @@ module.exports = {
 					"css-loader"
 				]
 			},
+			{
+				test: /\.(png|jpg)$/,
+				exclude: /node_modules/,
+				use: {
+					loader: 'url-loader',
+					options: {
+						limit: 5000,
+						name: './images/[hash].[name].[ext]',
+					},
+				},
+			},
 		],
 	},
 	plugins: [
