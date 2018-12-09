@@ -6,11 +6,11 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
 
 ### Índice de ejercicios
 
-1. Módulo 1: Layout
+1. Layout:
     
     - [Layout exercises](https://github.com/aaronsglz/lemoncode/tree/master/layout-exercises)
 
-2. Módulo 2: Lenguajes
+2. Lenguajes:
     - [Array operations](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex1-array-operations)
     - [Concat](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex2-concat)
     - [Clone and merge](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex3-clone-merge)
@@ -18,8 +18,7 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
     - [Read books (Typescript)](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex4-read-books-ts)
     - [Slot machine](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex5-slot-machine)
 
-3. Bundling
-    - [Bundling exercise](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises)
-        - [Primera parte](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/basic-app)
-        - [Bonus](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/bonus-app)
+3. Bundling:
+    - [Aplicación básica](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/basic-app)
+    - [Bonus](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/bonus-app)
 4. Frameworks (pendiente)
