@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server --mode development --open --config webpack.dev.js",
-		"build": "rimraf dist && webpack --config webpack.prod.js"
+		"start": "webpack-dev-server --env.customMode=DEV --mode development --open --config webpack.dev.js",
+		"build": "rimraf dist && webpack --env.customMode=PROD --config webpack.prod.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -29,7 +29,6 @@
 		"sass-loader": "^7.1.0",
 		"style-loader": "^0.23.1",
 		"typescript": "^3.2.2",
-		"uglifyjs-webpack-plugin": "^2.0.1",
 		"url-loader": "^1.1.2",
 		"webpack": "^4.27.1",
 		"webpack-cli": "^3.1.2",
