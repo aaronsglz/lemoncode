@@ -9,4 +9,7 @@ export const HelloComponent = () =>
         </span>
         <h2 className="hello__title">Bonus - React</h2>
         <p className="hello__desc">Bundling exercise</p>
+        <p>
+            Mode: {process.env.NODE_ENV}
+        </p>
     </section>
