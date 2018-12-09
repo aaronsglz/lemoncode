@@ -18,6 +18,8 @@ Resolución de los ejercicios propuestos durante las sesiones del **Máster Fron
     - [Read books (Typescript)](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex4-read-books-ts)
     - [Slot machine](https://github.com/aaronsglz/lemoncode/tree/master/language-exercises/ex5-slot-machine)
 
-3. Bundling (pendiente)
-
+3. Bundling
+    - [Bundling exercise](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises)
+        - [Primera parte](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/basic-app)
+        - [Bonus](https://github.com/aaronsglz/lemoncode/tree/master/bundling-exercises/bonus-app)
 4. Frameworks (pendiente)
