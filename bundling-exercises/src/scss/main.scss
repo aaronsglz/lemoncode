@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,600');
+
+// Typography
+$font-heading: 'Raleway', sans-serif;
+$font-heading-weight: 600;
+$font-text: 'Open Sans', sans-serif;
+
+// Base colors
+$color-lightgrey: lighten(black, 80);
+$color-aquamarine-light: lighten(aquamarine, 15);
+
+// App colors
+$color-bg-container: $color-aquamarine-light;
+$color-bg-hello: $color-lightgrey;
+
+body {
+    margin: 0;
+    font-family: $font-heading;
+}
+
+.hello {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: $color-lightgrey;
+}
+
+    .hello__title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: $font-heading;
+        font-weight: $font-heading-weight;
+        font-size: 2.5em;
+    }
+
+
+.container {
+    padding: 1em;
+    background-color: $color-bg-container;
+}

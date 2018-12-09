@@ -12,7 +12,7 @@ module.exports = {
 	entry: {
 		app: './js/index.js',
 		appStyles: [
-			'./css/main.css',
+			'./scss/main.scss',
 		],
 	},
 	output: {
@@ -36,6 +36,14 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader',
+			},
+			{
+				test: /\.scss$/,
+				use: [
+					MiniCssExtractPlugin.loader,
+					"css-loader",
+					"sass-loader",
+				]
 			},
 			{
 				test: /\.css$/,
